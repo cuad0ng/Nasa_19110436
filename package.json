@@ -1,0 +1,26 @@
+{
+  "name": "nasa_19110436",
+  "version": "1.0.0",
+  "description": "Nasa project: hiện thực website sử dụng Nodejs ReactJS\r Sinh viên xem hướng dẫn về website tại link: https://hcmuteeduvn-my.sharepoint.com/personal/phunghx_ms_hcmute_edu_vn/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fphunghx%5Fms%5Fhcmute%5Fedu%5Fvn%2FDocuments%2FProjects%2Fvideos&ga=1",
+  "main": "index.js",
+  "scripts": {
+    "install-server": "npm install --prefix server",
+    "install-client": "npm install --prefix client",
+    "install": "npm run install-server && npm run install-client",
+    "server": "npm run watch --prefix server",
+    "client": "npm start --prefix client",
+    "watch": "start npm run server && npm run client",
+    "test": "npm run test --prefix server && npm run test --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuad0ng/Nasa_19110436.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cuad0ng/Nasa_19110436/issues"
+  },
+  "homepage": "https://github.com/cuad0ng/Nasa_19110436#readme"
+}
